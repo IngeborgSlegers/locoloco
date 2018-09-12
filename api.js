@@ -17,11 +17,6 @@ function gogo() {
     let x = randomNum();
     console.log(x);
 
-    // if(travel && letsGo !== ''){
-    //     document.getElementById('randomCity').removeChild(travel);
-    //     document.getElementById('randomCity').removeChild(letsGo);
-    // }
-
     fetch(baseURL)
         .then(function(result) {
         //console.log(result.json())
