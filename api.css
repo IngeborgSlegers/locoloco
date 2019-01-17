@@ -1,8 +1,13 @@
 body .wrapper {
     background-image: url("Assets/malte-wingen-398146-unsplash.jpg");
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    height: 100vh;
     background-size: cover;
+}
+
+.controls {
+    position: relative;
+    top: 100px;
 }
 
 h1{
@@ -10,7 +15,8 @@ h1{
     color: black;
     font-size: 80px;
     font-family: 'Courier New', Courier, monospace;
-    padding-top: 260px;
+    position: relative;
+    /* top: 100px; */
     font-weight: 400;
     text-shadow: 1px 2px white;
     margin: auto;
@@ -47,11 +53,13 @@ button#gogo {
 #randomCity {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 1.1em;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 1px 2px black;
     font-weight: 10;
     background-color: rgba(255, 255, 255, 0.2);
-    height: 150px;
-    padding-top: 30px;
+    height: 15vh;
+    position: relative;
+    top: 20vh;
+    /* padding-top: 30px; */
 }
